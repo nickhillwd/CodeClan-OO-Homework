@@ -22,3 +22,15 @@ class Bear
     puts "Hello Mr"
   end
 end
+
+#------ FISH CLASS ------#
+
+class Fish
+  def initialize(input_name)
+    @name = input_name.downcase.capitalize
+  end
+
+  def name
+    @name
+  end
+end
