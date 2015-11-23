@@ -17,3 +17,10 @@ coca_cola.roar
 
 puts"------------------------------------------------"
 
+nemo = Fish.new("nemo")
+jaws = Fish.new("Jaws")
+klaus = Fish.new("Klaus")
+
+fish_array = [nemo, jaws, klaus]
+
+river = River.new(fish_array)

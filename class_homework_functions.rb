@@ -34,3 +34,34 @@ class Fish
     @name
   end
 end
+
+#------ RIVER CLASS ------#
+
+class River
+  def initialize(input_fishies)
+    @fishies = input_fishies
+  end
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
