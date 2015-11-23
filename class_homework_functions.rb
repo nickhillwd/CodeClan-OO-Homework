@@ -4,6 +4,7 @@ class Bear
   def initialize(input_name, input_type)
     @name = input_name.downcase.capitalize
     @type = input_type.downcase.capitalize
+    @food = []
   end
 
   def name
@@ -14,6 +15,14 @@ class Bear
     @type
   end
 
+  def food
+    @food
+  end
+
+  def add_food(new_food)
+    @food.concat(new_food)
+  end
+
   def roar
     puts "ROAR!!!!!"
   end
@@ -21,6 +30,7 @@ class Bear
   def speak
     puts "Hello Mr"
   end
+
 end
 
 #------ FISH CLASS ------#
