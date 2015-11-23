@@ -13,9 +13,17 @@ nemo = Fish.new("nemo")
 jaws = Fish.new("Jaws")
 klaus = Fish.new("Klaus")
 
-fish_array = [nemo, jaws, klaus]
+fried = Fish.new("fried")
+battered = Fish.new("battered")
+fish_cake = Fish.new("fish cake")
 
-river = River.new(fish_array)
+fish_array_1 = [nemo, jaws, klaus]
+
+fish_array_2 = [fried, battered, fish_cake]
+
+river_ouse = River.new(fish_array_1)
+
+restaurant_river = River.new(fish_array_2)
 
 puts"------------------------------------------------"
 
@@ -34,3 +42,9 @@ puts "Food in paddington's tummy array:"
 puts paddington.food
 
 puts"------------------------------------------------"
+
+coca_cola.eat_a_fish(river_ouse)
+
+puts "#{coca_cola.food}"
+puts "#{river_ouse.fishies}"
+

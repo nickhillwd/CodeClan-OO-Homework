@@ -31,6 +31,10 @@ class Bear
     puts "Hello Mr"
   end
 
+  def eat_a_fish(river)
+    @food << river.fishies.pop
+  end
+
 end
 
 #------ FISH CLASS ------#
@@ -50,6 +54,10 @@ end
 class River
   def initialize(input_fishies)
     @fishies = input_fishies
+  end
+
+  def fishies
+    @fishies
   end
 end
 
