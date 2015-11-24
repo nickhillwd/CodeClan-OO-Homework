@@ -48,3 +48,4 @@ coca_cola.eat_a_fish(river_ouse)
 puts "#{coca_cola.food}"
 puts "#{river_ouse.fishies}"
 
+puts"------------------------------------------------"

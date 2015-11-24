@@ -25,6 +25,7 @@ class Bear
 
   def roar
     puts "ROAR!!!!!"
+    system('say "Roar. Angry bear."')
   end
 
   def speak
